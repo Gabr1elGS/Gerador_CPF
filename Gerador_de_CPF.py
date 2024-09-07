@@ -28,6 +28,7 @@ while True:
 
 
     print (f"CPF: {CPF_Calculado}")
+    print ("Utilize com responsabilidade.")
     
     cont = input("Desaja continuar? : ").upper
     os.system("cls")
