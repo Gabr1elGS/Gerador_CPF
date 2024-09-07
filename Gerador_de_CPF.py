@@ -1,5 +1,5 @@
 import random
-import os
+
 while True:
     CPF_user= ""
     for i in range(9):
@@ -28,12 +28,13 @@ while True:
 
 
     print (f"CPF: {CPF_Calculado}")
+    print ("Utilize com responsabilidade.")
     
-    cont = input("Desaja continuar? : ").upper
-    os.system("cls")
-    if cont == "SIM":
+    cont = input("Desaja continuar?[N]ão ou [S]im : ").upper()
+  
+    if cont == "N":
+        break
+    elif cont == "S":
         continue
-    print("Exit...")
-    break
-
+print("Exit...")
     
